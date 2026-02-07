@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Fusion 360
+*.f3d
+*.f3z
+*~$*.f3d
+
+# CAD exports (track STL/STEP in models/ only)
+*.stl
+*.step
+*.stp
+*.iges
+*.igs
+
+# CAM
+*.nc
+*.gcode
+*.tap
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 3D Printing
+*.gcode
+*.3mf
+
+# Temporary files
+*.tmp
+*.bak
+*.log
